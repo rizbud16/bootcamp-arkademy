@@ -1,5 +1,5 @@
 function triangle(num){
-  print = ""
+  let print = ""
   if(typeof num == "number" && num >= 0) {
     for(i=0;i<num;i++) {
       for(j=0;j<=i;j++) {
