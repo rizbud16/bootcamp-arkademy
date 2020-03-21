@@ -1,5 +1,5 @@
 function usernameCheck(user) {
-	const validUser = /^[a-z]{5,7}$/;
+	const validUser = /^[a-z]{5,7}$/i;
 	return validUser.test(user)
 }
 
